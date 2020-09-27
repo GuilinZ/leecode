@@ -11,6 +11,6 @@ class Solution(object):
             residual = target - item
             if residual in pool:
                 res_idx = pool[residual]
-                return [idx,res_idx]
+                return [idx,res_idx] 
             else:
                 pool[item]=idx
